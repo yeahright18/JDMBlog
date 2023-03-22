@@ -1,11 +1,11 @@
-<h1 class="text-center mt-4"><strong>Stworz kategorie</strong></h1>
+<h1 class="text-center mt-4"><strong>Edytuj kategorie</strong></h1>
 
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-10">
       <%= render 'form' %>
     </div>
-    <%= link_to '[Cancel and return to categories listing]', categories_path %>
+    <%= link_to '[Cancel and return to category]', category_path(@category) %>
   </div>
 </div>
 
